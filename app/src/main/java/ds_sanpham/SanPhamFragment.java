@@ -131,13 +131,13 @@ public class SanPhamFragment extends Fragment {
         builder.setMessage("Bạn có muốn xoá không");
         builder.setCancelable(false);
 
-        builder.setNegativeButton("Có", new DialogInterface.OnClickListener() {
+        builder.setNegativeButton("Không", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
 
             }
         });
-        builder.setPositiveButton("Không", new DialogInterface.OnClickListener() {
+        builder.setPositiveButton("Có", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 PhieuMuonDAO pmDAO = new PhieuMuonDAO(getContext());

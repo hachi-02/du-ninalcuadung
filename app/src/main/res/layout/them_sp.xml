@@ -10,24 +10,29 @@
         tools:ignore="MissingConstraints">
 
         <TextView
-            android:id="@+id/title"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:background="#FFC107"
-            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
             android:text="Thêm sản phẩm"
-            android:textSize="35dp"/>
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#C62E2E"
+            />
 
-        <EditText
-            android:id="@+id/ten"
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
             android:layout_marginLeft="4dp"
             android:layout_marginRight="4dp"
-            android:layout_marginTop="16dp"
-            android:hint="Tên sản phẩm"
-            />
+            android:hint="Tên sản phẩm">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
 
         <Spinner
             android:id="@+id/theloai"
@@ -41,27 +46,41 @@
             android:prompt="@string/duanmau"
             />
 
-        <EditText
-            android:id="@+id/soluong"
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:layout_marginLeft="4dp"
             android:layout_marginRight="4dp"
             android:layout_marginTop="4dp"
-            android:fontFamily="sans-serif"
             android:hint="Nhập số lượng"
-            />
-        <EditText
-            android:id="@+id/giaban"
+            android:fontFamily="sans-serif">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/soluong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:layout_marginLeft="4dp"
             android:layout_marginRight="4dp"
             android:layout_marginTop="4dp"
-            android:fontFamily="sans-serif"
             android:hint="Giá bán"
-            />
+            android:fontFamily="sans-serif">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/giaban"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

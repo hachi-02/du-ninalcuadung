@@ -40,7 +40,9 @@
         android:hint="Mật khẩu"
         android:padding="16dp"
         android:paddingTop="16dp"
-        android:paddingBottom="3dp" />
+        android:paddingBottom="3dp"
+        android:inputType="textPassword"/>
+
 
     <Button
         android:id="@+id/bt_login"

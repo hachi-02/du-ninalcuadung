@@ -11,14 +11,15 @@
         tools:ignore="MissingConstraints">
 
         <TextView
-            android:id="@+id/title"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:background="#FFC107"
-            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
             android:text="Sửa sản phẩm"
-            android:textSize="35dp"
-            android:textStyle="bold"/>
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#C62E2E"
+            />
 
         <TextView
             android:id="@+id/tv_ten"
@@ -26,7 +27,6 @@
             android:layout_height="wrap_content"
             android:text="Tên sản phẩm:"
             android:textSize="18sp"
-            android:layout_marginTop="16dp"
             android:layout_marginStart="4dp"
             android:layout_marginEnd="4dp"
             android:textStyle="bold"/>
