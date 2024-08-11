@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="174dp"
+    android:orientation="vertical"
+    android:padding="7dp">
+
+    <LinearLayout
+        android:id="@+id/ruuh33qez71j"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@drawable/backround_viewholder"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:id="@+id/ry85zadvsw6s"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mã pm: "
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_mapm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="helo"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mã SP: "
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_masp2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="helo"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tên: "
+                    android:textColor="#003A91"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_ten_ngm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="helo"
+                    android:textColor="#003A91"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sách: "
+                    android:textColor="#E30000"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_tp2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="helo"
+                    android:textSize="18sp"
+                    android:textColor="#E30000"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Số ĐT: "
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_sdt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="helo"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/tv5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ngày mượn: "
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_ngaymuon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="helo"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Trạng thái: "
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_trangthai"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="helo"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#0E53AA"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp">
+
+                    <TextView
+                        android:id="@+id/tv6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ngày trả: "
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/tv_ngaytra"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="helo"
+                        android:textSize="18sp"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:id="@+id/bt_ct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bt_sua"
+                android:gravity="center"
+                android:onClick="onButtonClick"
+                android:padding="12dp">
+
+                <TextView
+                    android:id="@+id/ree9pqdaifip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chi tiết"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bt_xoa2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bt_xoa"
+                android:gravity="center"
+                android:onClick="onButtonClick"
+                android:padding="12dp">
+
+                <TextView
+                    android:id="@+id/r9hmdpgza9d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Xóa"
+                    android:textColor="#fde8e7"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

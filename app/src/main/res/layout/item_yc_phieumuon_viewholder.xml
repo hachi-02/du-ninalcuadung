@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="7dp"
+    >
+
+    <!-- LinearLayout bao bọc toàn bộ nội dung -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bogocycpm"
+        android:padding="10dp">
+
+        <!-- Container cho Tên người mượn -->
+        <LinearLayout
+            android:id="@+id/container_ten_ngm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <!-- Label cho Tên người mượn -->
+
+            <!-- Tên người mượn -->
+            <TextView
+                android:id="@+id/label_ten_ngm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="Tên người mượn:"
+                android:textColor="#003A91"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_ten_ngm"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tên người mượn"
+                android:textColor="#003A91"
+                android:textSize="19sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <!-- Container cho Tên tác phẩm -->
+        <LinearLayout
+            android:id="@+id/container_ten_tp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <!-- Label cho Tên tác phẩm -->
+            <TextView
+                android:id="@+id/label_tentp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên tác phẩm:"
+                android:textSize="19sp"
+                android:textColor="#E30000"
+                android:textStyle="bold"
+                android:layout_marginEnd="8dp"/>
+
+            <!-- Tên tác phẩm -->
+            <TextView
+                android:id="@+id/tv_tentp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tên sách"
+                android:textColor="#E30000"
+                android:textSize="19sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <!-- Layout cho các nút -->
+        <LinearLayout
+            android:id="@+id/button_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="40dp">
+
+            <Button
+                android:id="@+id/btnChiTiet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chi tiết"
+                android:background="@drawable/bt_sua"
+                android:backgroundTint="#004665"
+                app:backgroundTint="@null"
+                android:layout_marginEnd="8dp"/>
+            <Button
+                android:id="@+id/btnTuChoi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bt_xoa"
+                app:backgroundTint="@null"
+                android:text="Từ chối"
+                android:layout_marginEnd="8dp"/>
+
+            <Button
+                android:id="@+id/btnChapNhan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bt_sua"
+                app:backgroundTint="@null"
+                android:backgroundTint="#03A9F4"
+                android:text="Chấp nhận"/>
+        </LinearLayout>
+
+    </LinearLayout> <!-- Kết thúc LinearLayout bao bọc toàn bộ nội dung -->
+
+</LinearLayout>

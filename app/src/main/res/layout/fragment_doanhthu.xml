@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backround"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Layout cho ngày bắt đầu -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:elevation="2dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/bt_ngaybd"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/bogoctrai_doanhthu"
+            android:backgroundTint="#03A9F4"
+            android:padding="10dp"
+            android:text="Chọn ngày"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            app:backgroundTint="@null" />
+
+        <TextView
+            android:id="@+id/tv_ngaybd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/bogocphai_doanhthu"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="Ngày bắt đầu"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- Layout cho ngày kết thúc -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:elevation="2dp"
+
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/bt_ngaykt"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="7dp"
+            android:layout_weight="1"
+            android:background="@drawable/bogoctrai_doanhthu"
+            android:backgroundTint="#03A9F4"
+            android:padding="10dp"
+            android:text="Chọn ngày"
+            android:textColor="#FFFFFF"
+            app:backgroundTint="@null"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_ngaykt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/bogocphai_doanhthu"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="Ngày kết thúc"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- Layout cho tính tổng doanh thu -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Tổng tiền"
+            android:textColor="#191919"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_tinhtien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/bogocphai_doanhthu"
+            android:elevation="2dp"
+            android:gravity="center"
+            android:padding="7dp"
+            android:text="0 VNĐ"
+            android:textColor="#C3000000"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt_tinhtien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/bogoc_doanhthu"
+            app:backgroundTint="@null"
+            android:backgroundTint="#004665"
+            android:padding="12dp"
+            android:text="Tính doanh thu"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+</LinearLayout>

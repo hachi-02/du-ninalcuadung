@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="500dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:background="#FFC107"
+            android:gravity="center"
+            android:text="Thêm phiếu mượn"
+            android:textSize="35dp" />
+
+        <EditText
+            android:id="@+id/ten_ngm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="4dp"
+            android:hint="Tên người mượn" />
+
+        <EditText
+            android:id="@+id/id_tacpham"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="4dp"
+            android:hint="id"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/ten_tp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="4dp"
+            android:hint="Tên tác phẩm"
+
+            />
+
+        <EditText
+            android:id="@+id/sdt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif"
+            android:hint="Nhập số điện thoại" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt_ngaymuon"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bt_sua"
+                android:backgroundTint="#03A9F4"
+                android:text="Ngày mượn"
+                app:backgroundTint="@null" />
+
+            <TextView
+                android:id="@+id/tv_ngaymuon"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="16dp"
+                android:text="##/##/###"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt_ngaytra"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bt_sua"
+                android:backgroundTint="#03A9F4"
+                android:text="Ngày trả"
+                app:backgroundTint="@null" />
+
+            <TextView
+                android:id="@+id/tv_ngaytra"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="16dp"
+                android:text="##/##/###"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

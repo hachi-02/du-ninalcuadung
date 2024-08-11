@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/et_sach"
+                    android:title="Trang chủ"
+                    android:icon="@drawable/ic_book"/>
+                <item
+                    android:id="@+id/et_sachmuon"
+                    android:title="Sách mượn"
+                    android:icon="@drawable/ic_sachmuon"/>
+        <item
+            android:id="@+id/et_thongbao"
+            android:title="Thông báo"
+            android:icon="@drawable/ic_thongbao"/>
+        <item android:title="khác">
+            <menu>
+                <item
+                    android:id="@+id/et_dandgxuat"
+                    android:title="Đăng xuất"
+                    android:icon="@drawable/ic_dangxuat"/>
+            </menu>
+        </item>
+    </group>
+</menu>

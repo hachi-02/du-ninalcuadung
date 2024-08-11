@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/anhnenlogin"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12dp"
+        android:text="ĐĂNG NHẬP"
+        android:textColor="#03A9F4"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_user_signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="54dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/cr20bffefefef"
+        android:hint="Tên đăng nhập"
+        android:padding="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="3dp" />
+
+    <EditText
+        android:id="@+id/edt_pass_signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="54dp"
+        android:layout_marginBottom="23dp"
+        android:background="@drawable/cr15bffefefef"
+        android:hint="Mật khẩu"
+        android:padding="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="3dp" />
+
+    <Button
+        android:id="@+id/bt_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="54dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/sign_in"
+        android:backgroundTint="#004665"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:text="Đăng nhập"
+        android:textSize="18dp"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/bt_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="54dp"
+        android:background="@drawable/sign_up"
+        android:paddingVertical="12dp"
+        android:text="Đăng ký"
+        android:textColor="#004665"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:backgroundTint="@null" />
+
+</LinearLayout>
